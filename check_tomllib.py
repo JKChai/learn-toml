@@ -1,4 +1,11 @@
+import subprocess
+
 try:
     import tomllib
 except ModuleNotFoundError:
-    import tomli as tomllib
+    try:
+        import tomli
+    except ModuleNotFoundError:
+        subprocess.run(["python", "-m", "pip", "install", "tomli"], check=True)
+        import tomli
+
