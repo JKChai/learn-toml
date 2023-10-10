@@ -1,2 +1,5 @@
-# learn-toml
- Learning TOML config for Python
+# README
+
+Using TOML for Python APP configuration
+
+
