@@ -1,0 +1,7 @@
+# Ignore VENV folders
+Include
+Lib
+Scripts
+
+# Ignore VENV config
+pyvenv.cfg
