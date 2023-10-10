@@ -5,3 +5,6 @@ Scripts
 
 # Ignore VENV config
 pyvenv.cfg
+
+# Ignore any special Python folder
+__pycache__
